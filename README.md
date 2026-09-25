@@ -50,10 +50,15 @@ graph TD
 
 ## 📸 Galería del Proyecto
 
-| Catálogo Principal | Interfaz del Chatbot IA |
-| :---: | :---: |
-| <img src="docs/img1.jpg" width="400" alt="Vista del catálogo"/> | <img src="docs/img3.jpg" width="400" alt="Chatbot RAG"/> |
-| <img src="docs/img2.jpg" width="400" alt="Detalle del juego"/> | <video src="docs/img4.jpg" width="400" controls></video> |
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/311c5e3f-fc01-4fdb-9146-88e9e45036de" height="350" alt="Vista del catálogo"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/1bd02bd6-599f-4839-8a3e-49e79cdee5c7" height="350" alt="Chatbot RAG"/>
+  <br><br><br>
+  <img src="https://github.com/user-attachments/assets/9d8e65ee-50dd-4b1d-930e-3c016da4c3c0" height="350" alt="Detalle del juego"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/667c1cbe-f251-4ffc-87bc-d9ffb706d5ae" height="350" alt="Añadir nuevo juego"/>
+</div>
 
 ## 📂 Estructura del Código
 
@@ -131,3 +136,7 @@ src/
 *   **Evasión de Firewalls y Estrategia Fallback:** Implementación de cabeceras `User-Agent` personalizadas para sortear los bloqueos de Cloudflare al interactuar con APIs externas desde IPs de centros de datos. Se diseñó un mecanismo de rescate para garantizar el 100% de disponibilidad gráfica y funcional en el frontend cuando Steam o Hugging Face aplican *rate limiting*.
 *   **Configuración Estricta de CORS y Seguridad:** Resolución de bloqueos de políticas de mismo origen al separar el frontend (Vercel) del backend (Render). Se configuró un filtro CORS robusto en Spring Boot para autorizar dominios específicos de producción y gestionar correctamente las peticiones del cliente de Angular.
 *   **Gestión Segura de Entornos y Credenciales:** Transición fluida de un entorno de desarrollo local a una arquitectura cloud. Se implementó la inyección de variables de entorno para proteger claves sensibles (Gemini API, Hugging Face, credenciales de Aiven) y se utilizaron los `environments` de Angular para dinamizar los endpoints de consumo según el despliegue.
+
+## 👤 Autor
+*   Pablo Navia - Desarrollador de aplicaciones multiplataforma.
+*   [Linkedin](https://www.linkedin.com/in/pablo-navia5) 
