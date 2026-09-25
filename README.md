@@ -1,4 +1,4 @@
-# 🎮 Game Collection Manager | Full-Stack proyect & Chatbot Integration
+# 🎮 Game Collection Manager | Full-Stack project & Chatbot Integration
 
 **[🔗 Ver Aplicación en Vivo](https://bootcamp-9hdgovmcp-pablo-navia5s-projects.vercel.app)**
 
